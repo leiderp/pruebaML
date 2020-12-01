@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(165, 112, 211);
+    background:url(../images/fondo.jpg) no-repeat center top;
+    background-size: cover; 
+    height: 100vh;
+}
+h1{
+    color: cornsilk;
+}
+h6{
+    color: rgb(214, 196, 202);
+}
+#videoPlay{
+    background-color: rgb(107, 109, 109,.5);
+    width: auto;
+    height: auto;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#titulo{
+    padding: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgba(91, 12, 196, 0.5);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+iframe{
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
+}
