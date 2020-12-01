@@ -37,15 +37,19 @@ h6{
     border-top-right-radius: 30px;
 }
 
+#titulo:hover{
+    background-color:  rgba(91, 12, 196, 0.7);
+}
+
 iframe{
     border-top-left-radius:15px;
     border-top-right-radius:15px;
     border-bottom-left-radius:15px;
     border-bottom-right-radius:15px;
 }
-@media(max-width:900px){
+@media(max-width:870px){
     iframe{
-        width: auto;
+        width: -webkit-fill-available;
         height: auto;
     }
 }
