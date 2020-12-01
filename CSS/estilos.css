@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    border: dotted 3px rgb(218, 177, 177);
     background-color:rgb(165, 112, 211);
     background:url(../images/fondo.jpg) no-repeat center top;
     background-size: cover; 
@@ -14,6 +15,7 @@ h6{
 }
 #videoPlay{
     background-color: rgb(107, 109, 109,.5);
+    border: dotted 1px rgb(218, 177, 177);
     width: auto;
     height: auto;
     padding: 10px;
@@ -27,6 +29,7 @@ h6{
     margin-left: 50px;
     margin-top: 20px;
     text-align: center;
+    border: dotted 1px rgb(218, 177, 177);
     background-color: rgba(91, 12, 196, 0.5);
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
