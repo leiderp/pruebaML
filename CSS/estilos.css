@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    border: dotted 3px rgb(218, 177, 177);
+    /*border: dotted 3px rgb(218, 177, 177);*/
     background-color:rgb(165, 112, 211);
     background:url(../images/fondo.jpg) no-repeat center top;
     background-size: cover; 
@@ -9,6 +9,8 @@ body{
 }
 h1{
     color: cornsilk;
+    text-shadow: 2px 2px 5px rgb(221, 203, 203);
+
 }
 h6{
     color: rgb(214, 196, 202);
@@ -40,4 +42,10 @@ iframe{
     border-top-right-radius:15px;
     border-bottom-left-radius:15px;
     border-bottom-right-radius:15px;
+}
+@media(max-width:900px){
+    iframe{
+        width: auto;
+        height: auto;
+    }
 }
